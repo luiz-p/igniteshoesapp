@@ -13,7 +13,9 @@ import { CartContextProvider } from './src/contexts/CartContext';
 import { Routes } from './src/routes';
 import { THEME } from './src/theme';
 
-OneSignal.setAppId('12b395bf-36f7-482d-93ec-990cf4152c17')
+OneSignal.setAppId('e8a87125-0de6-4085-aa90-21c82d7ce418')
+
+OneSignal.setEmail('lpiresjunior@gmail.com')
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
